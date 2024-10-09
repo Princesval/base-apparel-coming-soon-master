@@ -32,11 +32,11 @@ main {
 }
 
 .container-logo {
-    margin-bottom: 140px;
+    margin-bottom: 100px;
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 5em;
     font-weight: 400;
     text-transform: uppercase;
     color: var(--DarkGrayishRed);
@@ -116,7 +116,7 @@ button:hover {
 
 footer {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 footer a {
@@ -126,6 +126,9 @@ footer a {
 }
 
 @media(min-width: 1600px) {
+    .container-logo {
+        margin-bottom: 200px;
+    }
     h1 {
         font-size: 7em;
     }
@@ -146,6 +149,10 @@ footer a {
 
     .email-container button {
         padding: 14px;
+    }
+
+    footer {
+        margin-top: 50px;
     }
 }
 
